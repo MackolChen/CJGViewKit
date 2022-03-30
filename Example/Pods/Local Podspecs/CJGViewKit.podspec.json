@@ -1,0 +1,22 @@
+{
+  "name": "CJGViewKit",
+  "version": "0.1.0",
+  "summary": "A short description of CJGViewKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MackolChen/CJGViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MackolChen": "chenjg@tiens.com"
+  },
+  "source": {
+    "git": "https://github.com/MackolChen/CJGViewKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CJGViewKit/Classes/**/*"
+}

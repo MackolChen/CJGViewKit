@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGViewKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CJGViewKit.'
+  s.version          = '1.0.0'
+  s.summary          = '链式编程，UIView分类属性，方便开发过程中对View属性赋值'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '链式编程，UIView增加分类属性，方便开发过程中对View属性赋值'
 
-  s.homepage         = 'https://github.com/MackolChen/CJGViewKit'
+  s.homepage         = 'https://github.com/MackolChen/CJGViewKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MackolChen' => 'chenjg@tiens.com' }
+  s.author           = { 'MackolChen' => 'engineer_macchen@163.com' }
   s.source           = { :git => 'https://github.com/MackolChen/CJGViewKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

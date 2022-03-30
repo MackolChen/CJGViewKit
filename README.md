@@ -22,7 +22,7 @@ pod 'CJGViewKit'
 
 ## Author
 
-MackolChen, chenjg@tiens.com
+MackolChen, engineer_macchen@163.com
 
 ## License
 

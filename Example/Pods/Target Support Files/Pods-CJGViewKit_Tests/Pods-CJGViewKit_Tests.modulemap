@@ -1,0 +1,6 @@
+framework module Pods_CJGViewKit_Tests {
+  umbrella header "Pods-CJGViewKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

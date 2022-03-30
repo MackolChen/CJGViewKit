@@ -1,0 +1,16 @@
+PODS:
+  - CJGViewKit (0.1.0)
+
+DEPENDENCIES:
+  - CJGViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  CJGViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJGViewKit: 008c0691b50f85ba3088f844344d64ded0ef179a
+
+PODFILE CHECKSUM: 5c71dd0d4f276bf995033ff82bc336be49f2e7b9
+
+COCOAPODS: 1.11.3

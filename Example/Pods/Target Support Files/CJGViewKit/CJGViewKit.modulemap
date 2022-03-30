@@ -1,0 +1,6 @@
+framework module CJGViewKit {
+  umbrella header "CJGViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
