@@ -247,7 +247,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MackolChen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CD2JVZSH63;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = CD2JVZSH63;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -494,6 +498,7 @@
 			baseConfigurationReference = 84BABAA3B2ADAAF1FF980076 /* Pods-CJGViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CD2JVZSH63;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CJGViewKit/CJGViewKit-Prefix.pch";
 				INFOPLIST_FILE = "CJGViewKit/CJGViewKit-Info.plist";
@@ -510,6 +515,7 @@
 			baseConfigurationReference = D722422A7A4C33EBE7F8424D /* Pods-CJGViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CD2JVZSH63;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CJGViewKit/CJGViewKit-Prefix.pch";
 				INFOPLIST_FILE = "CJGViewKit/CJGViewKit-Info.plist";
@@ -526,6 +532,7 @@
 			baseConfigurationReference = B1C22521BEB8AA23259732A9 /* Pods-CJGViewKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CD2JVZSH63;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +558,7 @@
 			baseConfigurationReference = E4983CF37D6053BB269D777D /* Pods-CJGViewKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CD2JVZSH63;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

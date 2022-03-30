@@ -7,7 +7,6 @@
 //
 
 #import "CJGViewController.h"
-
 @interface CJGViewController ()
 
 @end
