@@ -1,13 +1,15 @@
 //
-//  CJGExtentionHeader.h
-//  TouristGuide
+//  CJGViewKit.h
+//  Pods
 //
-//  Created by Jinguo Chen on 2021/4/2.
+//  Created by Chen Jinguo on 2023/1/4.
 //
 
-
+#ifndef CJGViewKit_h
+#define CJGViewKit_h
 #import "UIView+CJGExtension.h"
 #import "UILabel+CJGExtension.h"
 #import "UIButton+CJGExtension.h"
 #import "UITextField+CJGExtension.h"
 #import "UIImageView+CJGExtension.h"
+#endif /* CJGViewKit_h */

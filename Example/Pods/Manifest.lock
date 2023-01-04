@@ -1,5 +1,5 @@
 PODS:
-  - CJGViewKit (0.1.0)
+  - CJGViewKit (1.0.1)
 
 DEPENDENCIES:
   - CJGViewKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CJGViewKit: 008c0691b50f85ba3088f844344d64ded0ef179a
+  CJGViewKit: 7f3ee0d3c253e1039e5a2178b28f705425be2d9e
 
 PODFILE CHECKSUM: 5c71dd0d4f276bf995033ff82bc336be49f2e7b9
 

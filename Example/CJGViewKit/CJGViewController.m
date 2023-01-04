@@ -7,6 +7,7 @@
 //
 
 #import "CJGViewController.h"
+#import "CJGViewKit.h"
 @interface CJGViewController ()
 
 @end
@@ -16,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGViewKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '链式编程，UIView分类属性，方便开发过程中对View属性赋值'
 
 # This description is used to generate tags and improve search results.

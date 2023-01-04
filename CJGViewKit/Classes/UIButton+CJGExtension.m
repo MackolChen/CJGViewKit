@@ -50,7 +50,7 @@
         return self;
     };
 }
-- (void)layoutButtonWithEdgeInsetsStyle:(ZXLButtonEdgeInsetsStyle)style
+- (void)layoutButtonWithEdgeInsetsStyle:(CJGButtonEdgeInsetsStyle)style
                              buttonSize:(CGSize)bsize
                               imageSize:(CGSize)size
                         imageTitleSpace:(CGFloat)space{
@@ -68,22 +68,22 @@
     CGFloat fSpace = MAX((bsize.height - labelHeight - space - size.height)/2, 0.5f) ;
     // 3. 根据style和space得到imageEdgeInsets和labelEdgeInsets的值
     switch (style) {
-        case ZXLButtonEdgeInsetsStyleTop:{
+        case CJGButtonEdgeInsetsStyleTop:{
             imageEdgeInsets = UIEdgeInsetsMake(fSpace, (bsize.width - size.width)/2, fSpace + labelHeight + space,  (bsize.width - size.width)/2);
             labelEdgeInsets = UIEdgeInsetsMake(bsize.height - (labelHeight + fSpace), -imageWith, fSpace, 0);
         }
             break;
-        case ZXLButtonEdgeInsetsStyleLeft:{
+        case CJGButtonEdgeInsetsStyleLeft:{
             imageEdgeInsets = UIEdgeInsetsMake((bsize.height - size.height)/2, (bsize.width - size.width - space - labelwidth)/2, (bsize.height - size.height)/2, bsize.width - size.width - (bsize.width - size.width - space - labelwidth)/2);
             labelEdgeInsets = UIEdgeInsetsMake(0, -(imageWith - size.width), 0, 0.5);
         }
             break;
-        case ZXLButtonEdgeInsetsStyleBottom:{
+        case CJGButtonEdgeInsetsStyleBottom:{
             imageEdgeInsets = UIEdgeInsetsMake(fSpace + labelHeight + space, (bsize.width - size.width)/2, fSpace, (bsize.width - size.width)/2);
             labelEdgeInsets = UIEdgeInsetsMake(fSpace, 0, size.height + fSpace + space, 0);
         }
             break;
-        case ZXLButtonEdgeInsetsStyleRight:{
+        case CJGButtonEdgeInsetsStyleRight:{
             CGFloat fleftSpace = (bsize.width - size.width - space - labelwidth)/2;
             imageEdgeInsets = UIEdgeInsetsMake((bsize.height - size.height)/2,bsize.width - size.width - fleftSpace, (bsize.height - size.height)/2, fleftSpace);
             labelEdgeInsets = UIEdgeInsetsMake(0, -(imageWith + size.width + fSpace), 0, 0);
